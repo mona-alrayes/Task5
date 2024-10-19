@@ -1,0 +1,12 @@
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+button {
+    flex: 1 1 calc(25% - 10px); /* Adjusts button size */
+    margin: 5px; /* Adds space between buttons */
+    height: 60px;
+    font-size: 24px;
+}
